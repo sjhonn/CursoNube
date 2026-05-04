@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+</head>
+<body>
+    <h1>Bienvenido al sistema de bienes raíces</h1>
+    <ul>
+        <li><a href="{{ url_for('buscar_bienes_raices') }}">Buscar Bienes Raíces</a></li>
+        <li><a href="{{ url_for('agregar_bien_raiz') }}">Agregar Bienes Raíces</a></li>
+        <li><a href="{{ url_for('ver_boletas') }}">Ver y Subir Boletas</a></li>
+        <li><a href="{{ url_for('logout') }}">Cerrar Sesión</a></li>
+    </ul>
+</body>
+</html>

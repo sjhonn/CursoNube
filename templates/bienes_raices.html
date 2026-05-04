@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Bien Raíz</title>
+</head>
+<body>
+    <h2>Añadir Bien Raíz</h2>
+    <form action="/bienes_raices" method="post">
+        <label for="nombre">Nombre del Bien Raíz:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="precio">Precio:</label><br>
+        <input type="number" id="precio" name="precio" step="0.01" required><br><br>
+        
+        <label for="ubicacion">Ubicación:</label><br>
+        <input type="text" id="ubicacion" name="ubicacion" required><br><br>
+        
+        <button type="submit">Añadir Bien Raíz</button>
+    </form>
+</body>
+</html>
